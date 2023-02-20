@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "error.h": "c",
+        "dlfcn.h": "c",
+        "process.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
+}

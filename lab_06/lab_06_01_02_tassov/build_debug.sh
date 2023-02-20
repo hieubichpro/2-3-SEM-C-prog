@@ -1,0 +1,1 @@
+gcc -std=c99 -Wall -Werror -Wpedantic -Wfloat-equal -Wfloat-conversion  check_IO.c error.c file_work.c item.c main.c -o app.exe

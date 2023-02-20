@@ -1,0 +1,29 @@
+#ifdef vs #if
+
+#ifdef FEATURE_X
+    ... реализация, включающая функциональность X ...
+#endif
+
+#ifndef FEATURE_X
+    ... реализация, выключающая функциональность X ...
+#endif
+
+//===
+
+#if INTERFACE_VERSION == 0 
+
+    printf("Hello\n"); 
+
+#elif INTERFACE_VERSION == 1 
+
+    print_in_color("Hello\n", RED);
+
+#elif INTERFACE_VERSION == 2
+
+    message_box("Hello\n");
+
+#else 
+
+    #error "Unknown INTERFACE_VERSION" 
+
+#endif

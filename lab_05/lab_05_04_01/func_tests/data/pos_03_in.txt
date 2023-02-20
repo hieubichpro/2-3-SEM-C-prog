@@ -1,0 +1,12 @@
+vietnam
+hanoi
+5 5 5 4
+legion
+egypt
+3 3 4 4
+real
+madrid
+5 5 2 5
+chelsea
+fc
+5 5 5 5

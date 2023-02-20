@@ -1,0 +1,9 @@
+hello
+world
+4 4 4 4
+from
+moscow
+4 5 2 4
+hlrussia
+soviet
+4 5 5 5

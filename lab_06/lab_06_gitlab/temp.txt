@@ -1,0 +1,26 @@
+    string temp;
+    char *pend;
+
+
+
+        m = fscanf(f, "%f\n", &arr[i].m);
+        v = fscanf(f, "%f\n", &arr[i].v);
+
+        if (!m || m == EOF)
+            return ERR_READ_FILE;
+        if (!v || v == EOF)
+            return ERR_READ_FILE; 
+
+        if (fgets(temp, M_V_STR_SIZE, f) == NULL)
+        {
+            return ERR_READ_FILE;
+        }
+        
+        arr[i].m = strtod(temp, NULL);
+
+        if (fgets(temp, M_V_STR_SIZE, f) == NULL)
+        {
+            return ERR_READ_FILE;
+        }
+
+        arr[i].v = strtod(temp, NULL);
